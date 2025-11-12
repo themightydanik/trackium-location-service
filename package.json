@@ -1,0 +1,23 @@
+{
+  "name": "trackium-location-service",
+  "version": "1.0.0",
+  "description": "Trackium Location Service - WiFi/Cell geolocation for testing",
+  "main": "trackium-location.js",
+  "scripts": {
+    "start": "node trackium-location.js",
+    "test": "node trackium-location.js --test"
+  },
+  "keywords": [
+    "trackium",
+    "geolocation",
+    "minima",
+    "blockchain"
+  ],
+  "author": "Trackium",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
