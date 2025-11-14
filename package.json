@@ -3,21 +3,27 @@
   "version": "1.0.0",
   "description": "Trackium Location Service - WiFi/Cell geolocation for testing",
   "main": "trackium-location.js",
+  "bin": {
+    "trackium-location": "./trackium-location.js"
+  },
   "scripts": {
     "start": "node trackium-location.js",
-    "test": "node trackium-location.js --test"
+    "install-global": "npm install -g ."
   },
   "keywords": [
     "trackium",
     "geolocation",
     "minima",
-    "blockchain"
+    "blockchain",
+    "iot"
   ],
   "author": "Trackium",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trackium/location-service.git"
+  }
 }
